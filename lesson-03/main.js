@@ -1,11 +1,11 @@
-import tasks from "./data";
+import tasks from "./data.js";
 import {
   totalEstimate,
   remainingEstimate,
   countByPriority,
   groupByAssignee,
   indexById,
-} from "./utils";
+} from "./utils.js";
 
 console.log("estimate", totalEstimate(tasks));
 console.log("remaining", remainingEstimate(tasks));
